@@ -1,5 +1,6 @@
 public enum Ptype {
-    BOEING737(189),
+    SAAB2000(50),
+    DORNIER328(32),
     BNISLANDER(8);
 
     private final int capacity;

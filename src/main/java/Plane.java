@@ -15,12 +15,19 @@ public class Plane {
         return airline;
     }
 
-    public int countPassengers(){
+    public int countPassengers() {
         return this.passengers.size();
     }
 
-    public int returnCapacity(){
+    public int returnCapacity() {
         return this.ptype.getCapacity();
     }
 
+    public void loadPassenger(Passenger passenger) {
+        this.passengers.add(passenger);
+    }
+
+    public void unloadPassenger(Passenger passenger) {
+        this.passengers.remove(passenger);
+    }
 }
